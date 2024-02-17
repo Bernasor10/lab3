@@ -106,7 +106,7 @@ function displayFavoriteActivities($activities) {
         echo "If you want to know more about me, just click <strong class='highlight-video'>Learn More</strong class='highlight-video'><br>";
         echo "or <strong class='highlight-video'>Introduction Video</strong> 😄😄";
         echo "</p>";            
-        echo "<a href='about-me.php' class='button'>Learn More</a>";
+        echo "<a href='about-me' class='button'>Learn More</a>";
         echo "<a href='$youtubeLink' class='button'>Introduction Video</a>";
         echo "<div id='time'></div>";
         ?>
