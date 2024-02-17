@@ -4,7 +4,7 @@ $title = "Ronaldo Bernasor II"; // String
 $nickname = "Bam"; // String
 $degree = "BSIT"; // String
 $college = "Asia Pacific College"; // String
-$greeting = "Hi! My name is $title"; // String
+$greeting = "Hi! I am $title"; // String
 $youtubeLink = "https://www.youtube.com/watch?v=BbeeuzU5Qc8";
 $facebookLink = "https://www.facebook.com/maximuslincoln010/";
 $githubLink = "https://github.com/Bernasor10"; // String
@@ -95,14 +95,14 @@ function displayFavoriteActivities($activities) {
         <div class="main-content-grid">
         <div class="text-container">
         <?php
-        echo "<h1 class='header'><span class='type' data-text='Hi, I'm $title'>$greeting</span></h1>";
+        echo "<h1 class='header'><span class='type' data-text='Hi, I am $title'>$greeting</span></h1>";
         echo "<h2 class='subheader'><span class='type1' data-text='Potato Lover'></span></h2>";
         echo "<p>";
         echo "My nickname is <strong>$nickname</strong>. I <em>love</em> potatoes and enjoy them in all varieties.<br>";
         echo "Currently pursuing my studies in <strong>$degree</strong> at <em>$college</em>, and<br>";
-        echo "This is my <strong>first time</strong> creating a website, and I am <em>excited</em> about this new learning experience.<br>";
+        echo "this is my <strong>first time</strong> creating a website. I am also <em>excited</em> about this new learning experience.<br>";
         echo "I chose $degree because I have always been <em>fascinated</em> by computers and the <strong>endless<br>
-        possibilities</strong> they offer. I am $age years old and currently a full-time student.<br>";  
+        possibilities</strong> they offer. I am $age years old and a full-time student.<br>";  
         echo "If you want to know more about me, just click <strong class='highlight-video'>Learn More</strong class='highlight-video'><br>";
         echo "or <strong class='highlight-video'>Introduction Video</strong> 😄😄";
         echo "</p>";            
