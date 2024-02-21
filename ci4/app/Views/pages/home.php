@@ -93,27 +93,32 @@ function displayFavoriteActivities($activities) {
 <section id="home">
     <div class="main-content">
         <div class="main-content-grid">
-        <div class="text-container">
-        <?php
-        echo "<h1 class='header'><span class='type' data-text='Hi, I am $title'>$greeting</span></h1>";
-        echo "<h2 class='subheader'><span class='type1' data-text='Potato Lover'></span></h2>";
-        echo "<p>";
-        echo "My nickname is <strong>$nickname</strong>. I <em>love</em> potatoes and enjoy them in all varieties.<br>";
-        echo "Currently pursuing my studies in <strong>$degree</strong> at <em>$college</em>, and<br>";
-        echo "this is my <strong>first time</strong> creating a website. I am also <em>excited</em> about this new learning experience.<br>";
-        echo "I chose $degree because I have always been <em>fascinated</em> by computers and the <strong>endless<br>
-        possibilities</strong> they offer. I am $age years old and a full-time student.<br>";  
-        echo "If you want to know more about me, just click <strong class='highlight-video'>Learn More</strong class='highlight-video'><br>";
-        echo "or <strong class='highlight-video'>Introduction Video</strong> 😄😄";
-        echo "</p>";            
-        echo "<a href='about-me' class='button'>Learn More</a>";
-        echo "<a href='$youtubeLink' class='button'>Introduction Video</a>";
-        echo "<div id='time'></div>";
-        ?>
-                <div id="time"></div>
+            <div class="text-container">
+                <?php
+                echo "<h1 class='header'><span class='type' data-text='Hi, I am $title'>$greeting</span></h1>";
+                echo "<h2 class='subheader'><span class='type1' data-text='Potato Lover'></span></h2>";
+                echo "<p>";
+                echo "My nickname is <strong>$nickname</strong>. I <em>love</em> potatoes and enjoy them in all varieties.<br>";
+                echo "Currently pursuing my studies in <strong>$degree</strong> at <em>$college</em>, and<br>";
+                echo "this is my <strong>first time</strong> creating a website. I am also <em>excited</em> about this new learning experience.<br>";
+                echo "I chose $degree because I have always been <em>fascinated</em> by computers and the <strong>endless<br>
+                possibilities</strong> they offer. I am $age years old and a full-time student.<br>";  
+                echo "If you want to know more about me, just click <strong class='highlight-video'>Learn More</strong class='highlight-video'><br>";
+                echo "or <strong class='highlight-video'>Introduction Video</strong> 😄😄";
+                echo "</p>";            
+                echo "<a href='about-me' class='button'>Learn More</a>";
+                echo "<a href='$youtubeLink' class='button'>Introduction Video</a>";
+                echo "<div id='time'></div>";
+                echo "<div id='gif-container'>";
+                echo "<img src='".base_url('images/jujutsukaisen.gif')."' alt='Jujutsu Kaisen GIF' class='gif'>";
+                echo "<img src='".base_url('images/pewpew.gif')."' alt='Pew Pew GIF' class='gif'>";
+                echo "<img src='".base_url('images/valorant.gif')."' alt='Valorant GIF' class='gif'>";
+                echo "<img src='".base_url('images/corgi.gif')."' alt='Corgi GIF' class='gif'>";
+                echo "</div>";
+                ?>
             </div>
             <div class="image-container">
-            <img src="<?php echo base_url('images/me.jpg'); ?>" alt="Image of mine" class="right-side-image" />
+                <img src="<?php echo base_url('images/me.jpg'); ?>" alt="Image of mine" class="right-side-image" />
             </div>
         </div>
     </div>

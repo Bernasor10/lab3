@@ -57,19 +57,18 @@
 
       <!-- Resources Section -->
       <section class="resources">
-        <div class="resource-section">
-          <div><h1>References</h1></div>
-          <div id="educational-platforms"><h2>Educational Platforms</h2><ul class="resource-list"></ul></div>
-          <div id="social-media-icons"><h2>Social Media Icons:</h2><ul class="resource-list"></ul></div>
-          <div id="other-icons"><h2>Other Icons:</h2><ul class="resource-list"></ul></div>
-          <div id="live-wallpaper-background"><h2>Live Wallpaper Background:</h2><ul class="resource-list"></ul></div>
-          <div id="personal-website-inspiration"><h2>Personal Website Inspiration:</h2><ul class="resource-list"></ul></div>
-          <div id="color-palettes"><h2>Text Color Palettes:</h2><ul class="resource-list"></ul></div>
-          <div id="typing-animation-tutorial"><h2>Typing Animation Tutorial:</h2><ul class="resource-list"></ul></div>
-          <div id="social-media-border-color"><h2>Social Media Border Color Code:</h2><ul class="resource-list"></ul></div>
-          <div id="gifs"><h2>GIFs:</h2><ul class="resource-list"></ul></div>
-          <div id="other-medias"><h2>Other Media(s):</h2><ul class="resource-list"></ul></div>
-        </div>
+          <div class="resource-section">
+              <div><h1>References</h1></div>
+              <div id="educational-platforms"><h2>Educational Platforms</h2><ul class="resource-list"></ul></div>
+              <div id="social-media-icons"><h2>Icons:</h2><ul class="resource-list"></ul></div>
+              <div id="live-wallpaper-background"><h2>Live Wallpaper Background:</h2><ul class="resource-list"></ul></div>
+              <div id="personal-website-inspiration"><h2>Personal Website Inspiration:</h2><ul class="resource-list"></ul></div>
+              <div id="color-palettes"><h2>Text Color Palettes:</h2><ul class="resource-list"></ul></div>
+              <div id="typing-animation-tutorial"><h2>Typing Animation Tutorial:</h2><ul class="resource-list"></ul></div>
+              <div id="social-media-border-color"><h2>Social Media Border Color Code:</h2><ul class="resource-list"></ul></div>
+              <div id="gifs"><h2>GIFs:</h2><ul class="resource-list"></ul></div>
+              <div id="other-medias"><h2>Other Media(s):</h2><ul class="resource-list"></ul></div>
+          </div>
       </section>
 
       <footer>

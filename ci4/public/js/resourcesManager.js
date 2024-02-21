@@ -20,16 +20,14 @@
       }
   }
 
-  // Define categorized resources
-  const categories = {
+    // Define categorized resources
+    const categories = {
       "educational-platforms": [
         new Resource('Khan Academy', 'https://www.khanacademy.org'),
         new Resource('W3Schools.com', 'https://www.w3schools.com'),
       ],
       "social-media-icons": [
         new Resource('BoxIcons', 'https://boxicons.com'),
-      ],
-      "other-icons": [
         new Resource('Font Awesome', 'https://fontawesome.com'),
       ],
       "live-wallpaper-background": [
@@ -53,15 +51,20 @@
       "gifs": [
         new Resource('Cat Jam GIF', 'https://nloversar.life/product_details/35587960.html'),
         new Resource('Chipi chipi chapa cat GIF', 'https://tenor.com/view/chipi-chipi-chapa-chapa-cat-gif-2724505493463639324'),
+        new Resource('Corgi', 'https://gifer.com/en/4tyo'),
         new Resource('Dog with suspicious look GIF', 'https://tenor.com/view/side-eye-dog-suspicious-look-suspicious-doubt-dog-doubt-gif-23680990'),
+        new Resource('Gojo Satoru', 'https://giphy.com/stickers/gojo-satoru-MZ7yrimhG3DThJqHjl'),
         new Resource('Huh cat GIF', 'https://tenor.com/view/cat-huh-cat-huh-etr-gif-15332443943609734737'),
-        new Resource('Saitama getting mad GIF', 'https://www.pinterest.ph/pin/53691420536993349/')
-      ],
+        new Resource('Omen Valorant', 'https://giphy.com/stickers/playvalorant-valorant-omen-QhSCMLhsQg8oR87QJW'),
+        new Resource('Saitama getting mad GIF', 'https://www.pinterest.ph/pin/53691420536993349/'),
+        new Resource('Valorant Gun', 'https://giphy.com/stickers/playvalorant-valorant-singularity-skins-pIYYCiZTVaoiIZ9uIs')
+    ],
       "other-medias": [
         new Resource('Loading Screen Animation', 'https://www.vecteezy.com/video/26651017-loading-bar-animation'),
         new Resource('Random tutorial', 'https://www.youtube.com/watch?v=BbeeuzU5Qc8')
       ],
     };
+
 
   // Asynchronous function to simulate fetching resources
   async function fetchResources() {

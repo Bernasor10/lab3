@@ -163,8 +163,6 @@
 
         <!-- Contact Me Section -->
         <section id="contact">
-            <h3 class="section-title reveal-animation"><i class="fas fa-envelope"></i> Contact Me</h3>
-
             <div class="section-content">
                 <div class="age-calculator-form">
                     <h2 class="form-title">PHP Form Validation</h2>
