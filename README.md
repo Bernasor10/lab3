@@ -1,5 +1,5 @@
 # Ronaldo Bernasor II's Personal Website Portfolio
-Welcome to the GitHub repository of my personal website portfolio, `lab3`. This project is part of my coursework for WEBPROG. Lab3 is embedded with the CodeIgniter4 unlike lab2 that doesn't have yet.
+Welcome to the GitHub repository of my personal website portfolio, `lab3`. This project is part of my coursework for WEBPROG. `lab3` is embedded with the CodeIgniter4 unlike lab2 that doesn't have yet.
 
 ## Project Overview
 `lab3` is a website portfolio that displays my skills in web programming, projects and experiences. It is a showcase of my abilities as I use the web technologies and frameworks to develop this project.
