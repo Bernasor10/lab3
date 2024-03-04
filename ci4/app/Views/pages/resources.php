@@ -12,48 +12,6 @@
       <title>Ronaldolicious' Resources</title>
     </head>
     <body>
-      <video autoplay muted loop id="background-wallpaper">
-        <source src="<?php echo base_url('images/thelive-wallpaper02.mp4'); ?>" type="video/mp4">
-        Your selected browser does not support the video tag.
-      </video>
-      <div class="overlay"></div>
-
-      <div id="mySidebar" class="sidebar">
-        <!-- Close Button -->
-        <a href="javascript:void:0" class="closebtn" onclick="closeSidebar()"></a>
-        
-    <!-- Video -->
-    <img id="somsomi" src="<?php echo base_url('images/somsomiii.gif'); ?>" width="100%" style="position: relative;" 
-    alt="Jeon Somi Happy happy">
-
-        <!-- Container for Navigation Links -->
-        <div class="sidebar-nav-links">
-          <a href="<?php echo base_url('home'); ?>"><i class="fas fa-home"></i> Home</a>
-          <a href="<?php echo base_url('about-me'); ?>"><i class="fas fa-user"></i> About Me</a>
-          <a href="<?php echo base_url('playlist'); ?>"><i class="fas fa-music"></i> Playlist</a>
-          <a href="<?php echo base_url('contact-me'); ?>"><i class="fas fa-envelope"></i> Contact</a>
-          <a href="<?php echo base_url('resources'); ?>"><i class="fas fa-book"></i> Resources</a>
-        </div>
-    </div>
-
-            <!-- Navigation Bar -->
-            <nav class="navbar">
-            <a id="logo" href="<?php echo base_url('home'); ?>">
-                <div class="logo">호날두</div>
-            </a>
-            <div class="menu-toggle">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <ul class="nav-links">
-                <li><a href="<?php echo base_url('home'); ?>">Home</a></li>
-                <li><a href="<?php echo base_url('about-me'); ?>">About Me</a></li>
-                <li><a href="<?php echo base_url('playlist'); ?>">Playlist</a></li>
-                <li><a href="<?php echo base_url('contact-me'); ?>">Contact</a></li>
-                <li><a href="<?php echo base_url('resources'); ?>">Resources</a></li>
-            </ul>
-            </nav>
 
       <!-- Resources Section -->
       <section class="resources">
@@ -71,11 +29,6 @@
           </div>
       </section>
 
-      <footer>
-        <div class="copyright">
-          © 2023 Ronaldo Bernasor II. All Rights Reserved. Crafted for WEBPROG Portfolio.
-        </div>
-      </footer>
       <script src="<?php echo base_url('js/resourcesManager.js'); ?>"></script>
     </body>
     </html>

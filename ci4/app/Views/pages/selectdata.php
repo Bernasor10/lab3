@@ -1,9 +1,9 @@
-        <?php /*
+        <?php 
         // for socitcloud
         $servername = "localhost";
-        $username = "webprogmi222_sf221";
-        $password = "xE*Y2nleNVvZm[!!";
-        $dbname = "webprogmi222_sf221";
+        $username = "root";
+        $password = "";
+        $dbname = "contact_form";
 
         // Create connection
         $conn = new mysqli($servername, $username, $password, $dbname);
@@ -14,7 +14,7 @@
         }
 
         // SQL to select all records but limit to 10
-        $sql = "SELECT * FROM rsbernasor2_myguests LIMIT 10";
+        $sql = "SELECT * FROM myguests LIMIT 10";
 
         $result = $conn->query($sql);
 
@@ -29,5 +29,5 @@
             echo "0 results";
         }
 
-        $conn->close(); */
+        $conn->close(); 
         ?>

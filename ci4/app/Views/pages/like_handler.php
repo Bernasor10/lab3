@@ -1,9 +1,9 @@
-<?php /*
+<?php
 // for socitcloud
 $servername = "localhost";
-$username = "webprogmi222_sf221";
-$password = "xE*Y2nleNVvZm[!!";
-$dbname = "webprogmi222_sf221";
+$username = "root";
+$password = "";
+$dbname = "contact_form";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -15,7 +15,7 @@ if ($conn->connect_error) {
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Update like count in the database
-    $sql = "UPDATE rsbernasor2_myguests SET like_count = like_count + 1 WHERE id = 1";
+    $sql = "UPDATE likes SET like_count = like_count + 1 WHERE id = 1";
     if ($conn->query($sql) === TRUE) {
         echo "Record updated successfully";
     } else {
@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 } else {
     // Retrieve like count from the database
-    $sql = "SELECT like_count FROM rsbernasor2_myguests WHERE id = 1";
+    $sql = "SELECT like_count FROM likes WHERE id = 1";
     $result = $conn->query($sql);
 
     if ($result->num_rows > 0) {
@@ -34,5 +34,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 
-$conn->close(); */
+$conn->close();
 ?>

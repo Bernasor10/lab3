@@ -6,10 +6,6 @@ $degree = "BSIT"; // String
 $college = "Asia Pacific College"; // String
 $greeting = "Hi! I am $title"; // String
 $youtubeLink = "https://www.youtube.com/watch?v=BbeeuzU5Qc8";
-$facebookLink = "https://www.facebook.com/maximuslincoln010/";
-$githubLink = "https://github.com/Bernasor10"; // String
-$linkedinLink = "https://www.linkedin.com/in/ronaldo-bernasorii-b987761b3/";
-$instagramLink = "https://www.instagram.com/potatolicious.10/"; // String
 $age = 22; // Integer
 $isStudent = true; // Boolean
 $favoriteActivities = array("Cycling", "Watching Movies", "Playing Video Games"); // Array
@@ -37,57 +33,11 @@ function displayFavoriteActivities($activities) {
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="icon" href="<?php echo base_url('images/maximus.png'); ?>" type="image/x-icon">
     <title><?php echo $title; ?></title>
-    <style>
-        /* Add your CSS here */
-    </style>
 </head>
 <body>
     <div id="welcome-message" style="display: none;">
         <p>Welcome Adventurer!</p>
     </div>
-    <video autoplay muted loop id="background-wallpaper">
-    <source src="<?php echo base_url('images/thelive-wallpaper02.mp4'); ?>" type="video/mp4">
-    Your current browser does not support the video tag.
-</video>
-<div class="overlay"></div>
-
-    <div id="mySidebar" class="sidebar">
-        <!-- Close Button -->
-        <a href="javascript:void:0" class="closebtn" onclick="closeSidebar()"></a>
-        
-    <!-- Video -->
-    <img id="somsomi" src="<?php echo base_url('images/somsomiii.gif'); ?>" width="100%" style="position: relative;" 
-    alt="Jeon Somi Happy happy">
-    
-<!-- Container for Navigation Links -->
-<div class="sidebar-nav-links">
-    <a href="<?php echo base_url('home'); ?>"><i class="fas fa-home"></i> Home</a>
-    <a href="<?php echo base_url('about-me'); ?>"><i class="fas fa-user"></i> About Me</a>
-    <a href="<?php echo base_url('playlist'); ?>"><i class="fas fa-music"></i> Playlist</a>
-    <a href="<?php echo base_url('contact-me'); ?>"><i class="fas fa-envelope"></i> Contact</a>
-    <a href="<?php echo base_url('resources'); ?>"><i class="fas fa-book"></i> Resources</a>
-</div>
-</div>
-
-
-<!-- Navigation Bar -->
-<nav class="navbar">
-<a id="logo" href="<?php echo base_url('home'); ?>">
-    <div class="logo">호날두</div>
-</a>
-<div class="menu-toggle">
-    <span class="bar"></span>
-    <span class="bar"></span>
-    <span class="bar"></span>
-</div>
-<ul class="nav-links">
-    <li><a href="<?php echo base_url('home'); ?>">Home</a></li>
-    <li><a href="<?php echo base_url('about-me'); ?>">About Me</a></li>
-    <li><a href="<?php echo base_url('playlist'); ?>">Playlist</a></li>
-    <li><a href="<?php echo base_url('contact-me'); ?>">Contact</a></li>
-    <li><a href="<?php echo base_url('resources'); ?>">Resources</a></li>
-</ul>
-</nav>
 
 <!-- Home Section -->
 <section id="home">
@@ -122,56 +72,6 @@ function displayFavoriteActivities($activities) {
             </div>
         </div>
     </div>
-
-<!-- Footer with Social Links and More -->
-<footer class="social-links-container">
-    <!-- About Section -->
-    <div class="footer-grid-item">
-        <h4>Fun fact:</h4>
-        <p>I can maintain a typing speed of 76 words per minute for a straight 5 minutes!</p>
-    </div>
-
-        <!-- Navigation Links -->
-        <div class="footer-grid-item">
-            <h4>Quick Links</h4>
-            <ul>
-                <li><a href="<?php echo base_url('home'); ?>">Home</a></li>
-                <li><a href="<?php echo base_url('about-me'); ?>">About Me</a></li>
-                <li><a href="<?php echo base_url('playlist'); ?>">Playlist</a></li>
-                <li><a href="<?php echo base_url('contact-me'); ?>">Contact</a></li>
-                <li><a href="<?php echo base_url('resources'); ?>">Resources</a></li>
-            </ul>
-            </div>
-
-    <?php
-// Define social media links
-$facebookLink = "https://www.facebook.com/maximuslincoln010/";
-$githubLink = "https://github.com/Bernasor10";
-$linkedinLink = "https://www.linkedin.com/in/ronaldo-bernasorii-b987761b3/";
-$instagramLink = "https://www.instagram.com/potatolicious.10/";
-?>
-<!-- Social Media Links -->
-<div class="footer-grid-item">
-    <h4>Connect with Me</h4>
-    <div class="social-links">
-        <?php
-        // Array of social links
-        $socialLinks = [
-            'facebook' => $facebookLink,
-            'github' => $githubLink,
-            'linkedin' => $linkedinLink,
-            'instagram' => $instagramLink
-        ];
-
-        // Loop through social links and display them with existing CSS classes
-        foreach ($socialLinks as $network => $link) {
-            echo "<a href='{$link}' target='_blank'><span class='icon'><i class='bx bxl-{$network} bxl'></i></span></a>";
-        }
-        ?>
-    </div>
-</div>
-</footer>
-<!-- End of Footer -->
 
 </section>
 <!-- End of Home Section -->

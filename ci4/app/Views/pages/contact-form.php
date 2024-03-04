@@ -1,9 +1,9 @@
-            <?php /*
-	// for socitcloud
-	$servername = "localhost";
-	$username = "webprogmi222_sf221";
-	$password = "xE*Y2nleNVvZm[!!";
-	$dbname = "webprogmi222_sf221";
+            <?php
+            // for socitcloud
+            $servername = "localhost";
+            $username = "root";
+            $password = "";
+            $dbname = "contact_form";
 
             // Create connection
             $conn = new mysqli($servername, $username, $password, $dbname);
@@ -13,5 +13,5 @@
                 die("Connection failed: " . $conn->connect_error);
             }
 
-            return $conn; */
+            return $conn;
             ?>
