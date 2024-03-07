@@ -1,12 +1,10 @@
         <?php
         #require_once 'contact-form.php';
 
-        // Define variables and initialize with empty values
         $nameErr = $emailErr = $genderErr = $websiteErr = $phoneErr = $commentErr = "";
         $name = $email = $gender = $comment = $website = $phone = "";
         $userFeedback = "";
 
-        // Function for sanitizing input
         function test_input($data) {
             $data = trim($data);
             $data = stripslashes($data);
@@ -14,7 +12,6 @@
             return $data;
         }
 
-        // Processing form data when form is submitted
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // Validate name
             if (empty(trim($_POST["name"]))) {
@@ -26,7 +23,6 @@
                 }
             }
 
-            // Validate email
             if (empty($_POST["email"])) {
                 $emailErr = "Email is required";
             } else {
@@ -43,7 +39,6 @@
                 }
             }
             
-            // Validate website
             if (empty(trim($_POST["website"]))) {
                 $websiteErr = "Please enter your website.";
             } else {
@@ -53,14 +48,13 @@
                 }
             }
 
-            // Validate gender
             if (empty($_POST["gender"])) {
                 $genderErr = "Gender is required";
             } else {
                 $gender = test_input($_POST["gender"]);
             }
 
-            // Validate comment
+
             if (empty(trim($_POST["comment"]))) {
                 $commentErr = "Please enter a comment.";
             } else {
@@ -174,6 +168,31 @@
             <em>collaborating</em>, availing my services, or have any other questions, please don't hesitate to reach me out directly at<br>
             <strong>ronaldobernasor2@gmail.com</strong>. I'm always excited to connect and look forward to hearing from you!
         </p>
+            <style>
+        a {
+            font-size: 20px;
+            color: #ffffff;
+            text-decoration: underline;
+        }
+
+        a:hover {
+            color: #b38f46;
+        }
+
+        .link-container {
+            display: flex;
+            justify-content: center;
+            width: 80%;
+            margin: 0 auto;
+            gap: 50px;
+        }
+    </style>
+
+    <div class="link-container">
+        <a href="/webprog/lab3/ci4/public/news">Go to News Page</a>
+        <a href="/webprog/lab3/ci4/public/guests">Go to Guests Page</a>
+    </div>
+
         </section>
             
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

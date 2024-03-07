@@ -170,5 +170,6 @@
         <script src="https://kit.fontawesome.com/732c08c56d.js" crossorigin="anonymous"></script>
     </head>
     <script src="<?php echo base_url('js/resourcesManager.js'); ?>"></script>
+    <script src="<?php echo base_url('js/modal.js'); ?>"></script>
     </body>
     </html>

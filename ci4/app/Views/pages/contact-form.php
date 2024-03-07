@@ -3,7 +3,7 @@
             $servername = "localhost";
             $username = "root";
             $password = "";
-            $dbname = "contact_form";
+            $dbname = "ci4tutorial";
 
             // Create connection
             $conn = new mysqli($servername, $username, $password, $dbname);
