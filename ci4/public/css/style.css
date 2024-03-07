@@ -368,6 +368,11 @@ section {
     text-align: center;
 }
 
+.link-container a {
+    clip-path: inset(0 100% 0 0);
+    animation: revealContent 2s ease-out 1.5s forwards;
+}
+
 .section-title { 
     font-size: 45px; 
     font-weight: bold; 
