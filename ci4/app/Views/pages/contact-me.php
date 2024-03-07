@@ -189,8 +189,8 @@
     </style>
 
     <div class="link-container">
-        <a href="/webprog/lab3/ci4/public/news">Go to News Page</a>
-        <a href="/webprog/lab3/ci4/public/guests">Go to Guests Page</a>
+    <a href="<?php echo base_url('news'); ?>">Go to News Page</a>
+    <a href="<?php echo base_url('guests'); ?>">Go to Guests Page</a>
     </div>
 
         </section>
