@@ -1,10 +1,9 @@
 <?php
 // for socitcloud
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "contact_form";
-
+$username = "WEBPROGT220232024";
+$password = "goo)Story59";
+$dbname = "WEBPROGT220232024";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 
